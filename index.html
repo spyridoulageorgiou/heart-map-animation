@@ -117,8 +117,8 @@
             .on("end", function() {
                 // Get bounding box of the map to dynamically position the heart
                 const mapRect = document.getElementById("map").getBoundingClientRect();
-                heart.style.left = (mapRect.left + (mapRect.width * 0.56)) + "px";
-                heart.style.top = (mapRect.top + (mapRect.height * 0.65)) + "px";
+                heart.style.left = (mapRect.left + (mapRect.width * 0.50)) + "px";
+                heart.style.top = (mapRect.top + (mapRect.height * 0.35)) + "px";
                 heart.style.opacity = 1;
             });
     </script>
